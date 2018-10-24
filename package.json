@@ -1,0 +1,88 @@
+{
+  "name": "generator-laravel-package-scaffolder",
+  "version": "1.0.0",
+  "description": "A Yeoman generator to quickly scaffold a Laravel package.",
+  "homepage": "http://github.com/verschuur/generator-laravel-package-scaffolder",
+  "author": {
+    "name": "Govert Verschuur",
+    "email": "govert.verschuur@gmail.com",
+    "url": "http://github.com/verschuur"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "laravel",
+    "package",
+    "scaffold",
+    "scaffolding",
+    "yeoman-generator",
+    "yo"
+  ],
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-config-xo": "^0.25.0",
+    "eslint-plugin-prettier": "^3.*",
+    "husky": "^1.*",
+    "jest": "^23.5.0",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.14.3",
+    "yeoman-assert": "^3.1.0",
+    "yeoman-test": "^1.7.0"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "dependencies": {
+    "chalk": "^2.*",
+    "npm": "^6.*",
+    "username": "^4.0.0",
+    "yeoman-generator": "^3.*",
+    "yosay": "^2.*"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "xo",
+      "prettier"
+    ],
+    "env": {
+      "jest": true,
+      "node": true
+    },
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": true,
+          "printWidth": 90
+        }
+      ]
+    },
+    "plugins": [
+      "prettier",
+      "markdownlint-cli"
+    ]
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest",
+    "format": "prettier-standard 'generators/**/*.js'"
+  },
+  "repository": "verschuur/generator-test-2",
+  "license": "MIT"
+}

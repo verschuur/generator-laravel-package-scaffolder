@@ -1,0 +1,39 @@
+{
+  "name": "test-vendor/my-package",
+  "description": "",
+  "keywords": [
+    "Laravel"
+  ],
+  "authors": [
+    {
+      "name": "Test Author",
+      "email": "test.author@example.org"
+    }
+  ],
+  "homepage": "https://github.com/test-vendor/my-package",
+  "require": {
+    "php": ">=7.1.3",
+    "laravel/framework": "5.7.*"
+  },
+  "require-dev": {
+    "orchestra/testbench": "3.7.*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "TestVendor\\MyPackage\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TestVendor\\MyPackage\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "TestVendor\\MyPackage\\Providers\\MyPackageServiceProvider"
+      ]
+    }
+  }
+}

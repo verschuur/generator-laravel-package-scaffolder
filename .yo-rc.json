@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Govert Verschuur",
+      "authorEmail": "govert.verschuur@gmail.com",
+      "authorUrl": "https://github.com/verschuur"
+    }
+  }
+}
