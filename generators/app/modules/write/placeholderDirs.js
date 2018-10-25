@@ -11,7 +11,7 @@ module.exports = function(generator) {
     "public/"
   ].forEach(function(item) {
     generator.fs.copy(
-      generator.templatePath("_.gitignore"),
+      generator.templatePath("_.gitignore.placeholders"),
       generator.destinationPath(item + "/.gitignore")
     );
   });
