@@ -83,6 +83,6 @@
     "test": "jest",
     "format": "prettier-standard 'generators/**/*.js'"
   },
-  "repository": "verschuur/generator-test-2",
+  "repository": "verschuur/generator-laravel-package-scaffolder",
   "license": "MIT"
 }
