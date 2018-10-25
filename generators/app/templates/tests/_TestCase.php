@@ -13,8 +13,8 @@ class TestCase extends Orchestra\Testbench\TestCase
      * Include the package's service provider(s)
      *
      * @see https://github.com/orchestral/testbench#custom-service-provider
-     * @param [type] $app
-     * @return void
+     * @param Illuminate\Foundation\Application $app
+     * @return array
      */
     protected function getPackageProviders($app)
     {
