@@ -3,9 +3,7 @@
 const Generator = require("yeoman-generator");
 const chalk = require("chalk");
 const _ = require("lodash");
-const path = require('path');
 const username = require("username");
-const fs = require('fs')
 
 const readmeWriter = require("./modules/write/readme");
 const configWriter = require("./modules/write/config");
@@ -14,7 +12,7 @@ const serviceProviderWriter = require("./modules/write/serviceProvider");
 const testCaseWriter = require("./modules/write/testCase");
 const routesWriter = require("./modules/write/routes");
 const commandWriter = require("./modules/write/command");
-const placeholderDirsWriter = require("./modules/write/placeholderDirs");
+const gitignoreWriter = require("./modules/write/gitignore");
 const prompts = require("./modules/prompts");
 
 
@@ -69,7 +67,7 @@ module.exports = class extends Generator {
     testCaseWriter(this);
     routesWriter(this);
     commandWriter(this);
-    placeholderDirsWriter(this);
+    gitignoreWriter(this);
   }
       
   // install() {}

@@ -108,7 +108,7 @@ describe('generator-laravel-package-scaffolder:app', () => {
     })
   });
     
-  it('creates the placeholder dirs', () => {
+  it('creates the gitignore files', () => {
     return helpers
     .run(path.join(__dirname, '../generators/app'))
     .withPrompts(answers)
@@ -117,7 +117,8 @@ describe('generator-laravel-package-scaffolder:app', () => {
         'resources/lang/.gitignore',
         'resources/views/.gitignore',
         'database/migrations/.gitignore',
-        'public/.gitignore'
+        'public/.gitignore',
+        '.gitignore'
       ]);
     })
   });
