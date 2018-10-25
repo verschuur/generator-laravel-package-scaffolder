@@ -18,6 +18,8 @@ This Yeoman generator will quickly and easily scaffold a Laravel package, gettin
 
 It will generate the necessary files such as a service provider and a composer file, while also generating placeholder directories for migrations, translations etc.
 
+The service provider will be configured with all the correct settings for loading and/or publishing your assets. Just uncomment what you need and you're done.
+
 For a full overview of the scaffolded files, [have a look over here](#the-resulting-scaffolded-package).
 
 ## Installation
@@ -45,6 +47,7 @@ Given a package with the name _"MyPackage"_, the resulting package will have the
 ``` bash
 .
 ├── README.md
+├── .gitignore
 ├── composer.json
 ├── config
 │   └── my-package.php
