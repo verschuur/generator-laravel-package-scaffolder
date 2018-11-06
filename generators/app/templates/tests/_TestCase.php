@@ -21,7 +21,7 @@ class TestCase extends OrchestraTestCase
     protected function getPackageProviders($app)
     {
         return [
-            '<%=PACKAGE_NAMESPACE%>\Providers\<%=CLASS_NAME%>ServiceProvider'
+            \<%=PACKAGE_NAMESPACE%>\Providers\<%=CLASS_NAME%>ServiceProvider::class
         ];
     }
 }
