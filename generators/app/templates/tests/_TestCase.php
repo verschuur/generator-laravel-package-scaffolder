@@ -19,7 +19,7 @@ class TestCase extends Orchestra\Testbench\TestCase
     protected function getPackageProviders($app)
     {
         return [
-            '<%=PACKAGE_NAMESPACE%>\<%=CLASS_NAME%>ServiceProvider'
+            '<%=PACKAGE_NAMESPACE%>\Providers\<%=CLASS_NAME%>ServiceProvider'
         ];
     }
 }

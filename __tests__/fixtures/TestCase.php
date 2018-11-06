@@ -19,7 +19,7 @@ class TestCase extends Orchestra\Testbench\TestCase
     protected function getPackageProviders($app)
     {
         return [
-            'TestVendor\MyPackage\MyPackageServiceProvider'
+            'TestVendor\MyPackage\Providers\MyPackageServiceProvider'
         ];
     }
 }
