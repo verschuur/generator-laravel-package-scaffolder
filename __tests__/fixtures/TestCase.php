@@ -2,12 +2,14 @@
 
 namespace TestVendor\MyPackage\Tests;
 
+use Orchestra\Testbench\TestCase as OrchestraTestCase;
+
 /**
  * Override the standard PHPUnit testcase with the Testbench testcase
  *
  * @see https://github.com/orchestral/testbench#usage
  */
-class TestCase extends Orchestra\Testbench\TestCase
+class TestCase extends OrchestraTestCase
 {
     /**
      * Include the package's service provider(s)
@@ -19,7 +21,7 @@ class TestCase extends Orchestra\Testbench\TestCase
     protected function getPackageProviders($app)
     {
         return [
-            'TestVendor\MyPackage\MyPackageServiceProvider'
+            \TestVendor\MyPackage\Providers\MyPackageServiceProvider::class
         ];
     }
 }
