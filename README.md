@@ -1,20 +1,20 @@
 # Yeoman Laravel Package Generator
 
 - [Yeoman Laravel Package Generator](#yeoman-laravel-package-generator)
-    - [What's this about then?](#whats-this-about-then)
-    - [Installation](#installation)
-    - [Using the generator](#using-the-generator)
-    - [The resulting scaffolded package](#the-resulting-scaffolded-package)
-    - [Using the package](#using-the-package)
-    - [Contributing](#contributing)
-    - [Changelog](#changelog)
-    - [Testing](#testing)
-        - [Running Tests](#running-tests)
-        - [Generating code coverage](#generating-code-coverage)
+  - [What's this about then](#whats-this-about-then)
+  - [Installation](#installation)
+  - [Using the generator](#using-the-generator)
+  - [The resulting scaffolded package](#the-resulting-scaffolded-package)
+  - [Using the package](#using-the-package)
+  - [Contributing](#contributing)
+  - [Changelog](#changelog)
+  - [Testing](#testing)
+    - [Running Tests](#running-tests)
+    - [Generating code coverage](#generating-code-coverage)
 
-## What's this about then?
+## What's this about then
 
-This Yeoman generator will quickly and easily scaffold a Laravel package, getting you up and running within a few seconds. 
+This Yeoman generator will quickly and easily scaffold a Laravel package, getting you up and running within a few seconds.
 
 It will generate the necessary files such as a service provider and a composer file, while also generating placeholder directories for migrations, translations etc.
 
