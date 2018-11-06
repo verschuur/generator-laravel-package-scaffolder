@@ -1,6 +1,6 @@
 {
   "name": "generator-laravel-package-scaffolder",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A Yeoman generator to quickly scaffold a Laravel package.",
   "homepage": "http://github.com/verschuur/generator-laravel-package-scaffolder",
   "author": {
@@ -21,11 +21,11 @@
     "yo"
   ],
   "devDependencies": {
-    "eslint": "^5.7.0",
+    "eslint": "^5.8.0",
     "eslint-config-prettier": "^3.1.0",
     "eslint-config-xo": "^0.25.0",
     "eslint-plugin-prettier": "^3.*",
-    "husky": "^1.*",
+    "husky": "^1.1.3",
     "jest": "^23.5.0",
     "lint-staged": "^7.3.0",
     "prettier": "^1.14.3",
