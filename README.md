@@ -1,5 +1,7 @@
 # Yeoman Laravel Package Generator
 
+![Code Climate issues](https://img.shields.io/codeclimate/issues/verschuur/generator-laravel-package-scaffolder.svg?style=flat-square) ![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/verschuur/generator-laravel-package-scaffolder.svg?style=flat-square) ![Scrutinizer](https://img.shields.io/scrutinizer/g/verschuur/generator-laravel-package-scaffolder.svg?style=flat-square) ![Travis (.org)](https://img.shields.io/travis/verschuur/generator-laravel-package-scaffolder.svg?style=flat-square)
+
 - [Yeoman Laravel Package Generator](#yeoman-laravel-package-generator)
   - [What's this about then](#whats-this-about-then)
   - [Installation](#installation)
@@ -8,6 +10,7 @@
   - [Using the package](#using-the-package)
   - [Contributing](#contributing)
   - [Changelog](#changelog)
+  - [Security](#security)
   - [Testing](#testing)
     - [Running Tests](#running-tests)
     - [Generating code coverage](#generating-code-coverage)
@@ -114,6 +117,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md).
+
+## Security
+
+If you discover any security-related issues, please email govert.verschuur@gmail.com instead of using the issue tracker.
 
 ## Testing
 
