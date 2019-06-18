@@ -2,18 +2,19 @@
 
 ![Code Climate issues](https://img.shields.io/codeclimate/issues/verschuur/generator-laravel-package-scaffolder.svg?style=flat-square) ![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/verschuur/generator-laravel-package-scaffolder.svg?style=flat-square) ![Scrutinizer](https://img.shields.io/scrutinizer/g/verschuur/generator-laravel-package-scaffolder.svg?style=flat-square) ![Travis (.org)](https://img.shields.io/travis/verschuur/generator-laravel-package-scaffolder.svg?style=flat-square)
 
-- [Yeoman Laravel Package Generator](#yeoman-laravel-package-generator)
-  - [What's this about then](#whats-this-about-then)
-  - [Installation](#installation)
-  - [Using the generator](#using-the-generator)
-  - [The resulting scaffolded package](#the-resulting-scaffolded-package)
-  - [Using the package](#using-the-package)
-  - [Contributing](#contributing)
-  - [Changelog](#changelog)
-  - [Security](#security)
-  - [Testing](#testing)
-    - [Running Tests](#running-tests)
-    - [Generating code coverage](#generating-code-coverage)
+- [Yeoman Laravel Package Generator](#Yeoman-Laravel-Package-Generator)
+  - [What's this about then](#Whats-this-about-then)
+  - [Installation](#Installation)
+  - [Using the generator](#Using-the-generator)
+  - [The resulting scaffolded package](#The-resulting-scaffolded-package)
+  - [Using your package](#Using-your-package)
+  - [Testing your package](#Testing-your-package)
+  - [Contributing](#Contributing)
+  - [Changelog](#Changelog)
+  - [Security](#Security)
+  - [Testing](#Testing)
+    - [Running Tests](#Running-Tests)
+    - [Generating code coverage](#Generating-code-coverage)
 
 ## What's this about then
 
@@ -57,6 +58,7 @@ Given a package with the name _"MyPackage"_, the resulting package will have the
 ├── database
 │   └── migrations
 │       └── .gitignore
+├── phpstan.neon
 ├── phpunit.xml
 ├── public
 │   └── .gitignore
@@ -77,7 +79,7 @@ Given a package with the name _"MyPackage"_, the resulting package will have the
     └── TestCase.php
 ```
 
-## Using the package
+## Using your package
 
 If you want to use your package on the local filesystem in a Laravel app for development purposes, include the package in the app's composer.json file:
 
@@ -109,6 +111,13 @@ This will symlink the package into the app's vendor dir.
 **Note**: If you update your package's composer.json file, you need to run the composer update command again to update the app's autoloader.
 
 This is only necessary for the composer.json file. Changes in any other files in your package will be automatically updated thanks to the symlink.
+
+## Testing your package
+
+This generator automatically adds both [PHPUnit]([nu.nl](https://phpunit.de/)) and [PHPStan](https://github.com/phpstan/phpstan) for static analysis. Both are added to the composer.json `scripts` attribute. You can run them using:
+
+- `composer run test`
+- `composer run analysis`
 
 ## Contributing
 

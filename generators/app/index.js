@@ -13,8 +13,8 @@ const testCaseWriter = require("./modules/write/testCase");
 const routesWriter = require("./modules/write/routes");
 const commandWriter = require("./modules/write/command");
 const gitignoreWriter = require("./modules/write/gitignore");
+const phpStanWriter = require("./modules/write/phpstan");
 const prompts = require("./modules/prompts");
-
 
 module.exports = class extends Generator {
   initializing() {
@@ -68,6 +68,7 @@ module.exports = class extends Generator {
     routesWriter(this);
     commandWriter(this);
     gitignoreWriter(this);
+    phpStanWriter(this);
   }
       
   // install() {}
