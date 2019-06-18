@@ -36,5 +36,8 @@
         "TestVendor\\MyPackage\\Providers\\MyPackageServiceProvider"
       ]
     }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit -c ./phpunit.xml --colors=always"
   }
 }
