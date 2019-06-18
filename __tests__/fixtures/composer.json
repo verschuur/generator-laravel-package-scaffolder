@@ -12,12 +12,13 @@
   ],
   "homepage": "https://github.com/test-vendor/my-package",
   "require": {
-    "php": ">=7.1.3",
-    "laravel/framework": "5.7.*"
+    "php": "^7.1.3",
+    "laravel/framework": "5.8.*"
   },
   "require-dev": {
-    "phpunit/phpunit": "^7",
-    "orchestra/testbench": "3.7.*"
+    "phpunit/phpunit": "^7.5",
+    "orchestra/testbench": "3.8.*",
+    "phpstan/phpstan": "^0.11.8"
   },
   "license": "MIT",
   "autoload": {
@@ -36,5 +37,9 @@
         "TestVendor\\MyPackage\\Providers\\MyPackageServiceProvider"
       ]
     }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit -c ./phpunit.xml --colors=always",
+    "analysis": "vendor/bin/phpstan analyse"
   }
 }
