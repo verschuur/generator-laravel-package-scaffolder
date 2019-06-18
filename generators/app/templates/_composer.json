@@ -34,5 +34,8 @@
         "<%=PACKAGE_NAMESPACE%>\\Providers\\<%=CLASS_NAME%>ServiceProvider"
       ]
     }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit -c ./phpunit.xml --colors=always"
   }
 }
