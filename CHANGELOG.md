@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.3] - 2019-06-18
+
+- Updated the generated composer.json to match Laravel 5.8
+- Small namespace fix in the generated TestCase.php file.
+- Added a composer script to run the PHPUnit from the vendor dir
+- Added PHPStan to the generated package
+  
 ## [1.2.2] - 2019-06-17
 
 - Updated some NPM dependencies due to security warnings. Thanks GitHub 👍🏼
