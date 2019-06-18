@@ -40,6 +40,6 @@
   },
   "scripts": {
     "test": "vendor/bin/phpunit -c ./phpunit.xml --colors=always",
-    "analyse": "vendor/bin/phpstan analyse"
+    "analysis": "vendor/bin/phpstan analyse"
   }
 }
