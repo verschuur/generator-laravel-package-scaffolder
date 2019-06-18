@@ -132,4 +132,14 @@ describe('generator-laravel-package-scaffolder:app', () => {
       equalsFileContent(command, 'MyPackageCommand.php');
     })
   });
+
+  it('creates a phpstan.neon.dist file', () => {
+    return helpers.run(path.join(__dirname, '../generators/app'))
+    .withPrompts(answers)
+    .then(() => {
+      let distFile = 'phpstan.neon';
+      assert.file([distFile]);
+      equalsFileContent(distFile, 'phpstan.neon');
+    })
+  });
 });
