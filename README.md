@@ -114,7 +114,7 @@ This is only necessary for the composer.json file. Changes in any other files in
 
 ## Testing your package
 
-This generator automatically adds both [PHPUnit]([nu.nl](https://phpunit.de/)) and [PHPStan](https://github.com/phpstan/phpstan) for static analysis. Both are added to the composer.json `scripts` attribute. You can run them using:
+This generator automatically adds [PHPUnit](https://phpunit.de/) for unit testing and [PHPStan](https://github.com/phpstan/phpstan) for static analysis. Both are added to the composer.json `scripts` attribute. You can run them using:
 
 - `composer run test`
 - `composer run analysis`
