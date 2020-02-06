@@ -1,6 +1,6 @@
 {
   "name": "generator-laravel-package-scaffolder",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A Yeoman generator to quickly scaffold a Laravel package.",
   "homepage": "http://github.com/verschuur/generator-laravel-package-scaffolder",
   "author": {
