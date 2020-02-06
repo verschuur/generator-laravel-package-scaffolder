@@ -84,5 +84,8 @@
     "format": "prettier-standard 'generators/**/*.js'"
   },
   "repository": "verschuur/generator-laravel-package-scaffolder",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
