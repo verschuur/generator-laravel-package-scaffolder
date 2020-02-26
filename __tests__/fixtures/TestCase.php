@@ -10,7 +10,7 @@ use Illuminate\Foundation\Application;
  *
  * @see https://github.com/orchestral/testbench#usage
  */
-class TestCase extends OrchestraTestCase
+abstract class TestCase extends OrchestraTestCase
 {
     /**
      * Include the package's service provider(s)
