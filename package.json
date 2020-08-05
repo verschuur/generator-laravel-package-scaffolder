@@ -30,7 +30,7 @@
     "lint-staged": "^10.0.8",
     "prettier": "^1.18",
     "yeoman-assert": "^3.1",
-    "yeoman-test": "^2.2.0"
+    "yeoman-test": "^3.0.0"
   },
   "engines": {
     "npm": "^6.13"
