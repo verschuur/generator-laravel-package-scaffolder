@@ -12,8 +12,8 @@
   ],
   "homepage": "https://github.com/test-vendor/my-package",
   "require": {
-    "php": "^7.2",
-    "laravel/framework": "^6.0"
+    "php": "^7.3",
+    "laravel/framework": "^8.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.0",
