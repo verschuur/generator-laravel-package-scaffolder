@@ -22,24 +22,24 @@
   ],
   "devDependencies": {
     "eslint": "^7.0",
-    "eslint-config-prettier": "^6.12.0",
-    "eslint-config-xo": "^0.32",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-xo": "^0.35.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "husky": "^4.3.0",
+    "husky": "^5.2.0",
     "jest": "^26.0",
     "lint-staged": "^10.4.0",
     "prettier": "^2.0",
     "yeoman-assert": "^3.1",
-    "yeoman-test": "^3.0"
+    "yeoman-test": "^5.1.0"
   },
   "engines": {
-    "npm": "^6.13"
+    "npm": "^7.6"
   },
   "dependencies": {
     "chalk": "^4.0",
-    "npm": "^6.14.8",
+    "npm": "^7.6.3",
     "username": "^5.1",
-    "yeoman-generator": "^4.12.0",
+    "yeoman-generator": "^5.2.0",
     "yosay": "^2.*"
   },
   "jest": {
@@ -79,6 +79,7 @@
     ]
   },
   "scripts": {
+    "lint-staged": "lint-staged",
     "pretest": "eslint .",
     "test": "jest",
     "format": "prettier-standard 'generators/**/*.js'"
