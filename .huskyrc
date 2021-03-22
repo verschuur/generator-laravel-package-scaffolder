@@ -1,6 +1,0 @@
-{
-  "skipCI": false,
-  "hooks": {
-    "pre-commit": "npm run lint-staged"
-  }
-}
