@@ -1,20 +1,20 @@
 # Yeoman Laravel Package Generator
 
-![Code Climate issues](https://img.shields.io/codeclimate/issues/verschuur/generator-laravel-package-scaffolder.svg?style=flat-square) ![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/verschuur/generator-laravel-package-scaffolder.svg?style=flat-square) ![Scrutinizer](https://img.shields.io/scrutinizer/g/verschuur/generator-laravel-package-scaffolder.svg?style=flat-square) ![Travis (.org)](https://img.shields.io/travis/verschuur/generator-laravel-package-scaffolder.svg?style=flat-square)
+[![Node.js CI](https://github.com/verschuur/generator-laravel-package-scaffolder/actions/workflows/publish.yml/badge.svg)](https://github.com/verschuur/generator-laravel-package-scaffolder/actions/workflows/publish.yml) ![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/verschuur/generator-laravel-package-scaffolder.svg?style=flat-square) ![Scrutinizer](https://img.shields.io/scrutinizer/g/verschuur/generator-laravel-package-scaffolder.svg?style=flat-square) ![Code Climate issues](https://img.shields.io/codeclimate/issues/verschuur/generator-laravel-package-scaffolder.svg?style=flat-square)
 
-- [Yeoman Laravel Package Generator](#Yeoman-Laravel-Package-Generator)
-  - [What's this about then](#Whats-this-about-then)
-  - [Installation](#Installation)
-  - [Using the generator](#Using-the-generator)
-  - [The resulting scaffolded package](#The-resulting-scaffolded-package)
-  - [Using your package](#Using-your-package)
-  - [Testing your package](#Testing-your-package)
-  - [Contributing](#Contributing)
-  - [Changelog](#Changelog)
-  - [Security](#Security)
-  - [Testing](#Testing)
-    - [Running Tests](#Running-Tests)
-    - [Generating code coverage](#Generating-code-coverage)
+- [Yeoman Laravel Package Generator](#yeoman-laravel-package-generator)
+  - [What's this about then](#whats-this-about-then)
+  - [Installation](#installation)
+  - [Using the generator](#using-the-generator)
+  - [The resulting scaffolded package](#the-resulting-scaffolded-package)
+  - [Using your package](#using-your-package)
+  - [Testing your package](#testing-your-package)
+  - [Contributing](#contributing)
+  - [Changelog](#changelog)
+  - [Security](#security)
+  - [Testing](#testing)
+    - [Running Tests](#running-tests)
+    - [Generating code coverage](#generating-code-coverage)
 
 ## What's this about then
 
