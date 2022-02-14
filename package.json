@@ -21,24 +21,24 @@
     "yo"
   ],
   "devDependencies": {
-    "eslint": "^7.0",
+    "eslint": "^8.0",
     "eslint-config-prettier": "^8.1.0",
-    "eslint-config-xo": "^0.35.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "husky": "^5.2.0",
-    "jest": "^26.0",
-    "lint-staged": "^10.4.0",
+    "eslint-config-xo": "^0.1",
+    "eslint-plugin-prettier": "^4.0",
+    "husky": "^7.0",
+    "jest": "^27.0",
+    "lint-staged": "^12.0",
     "prettier": "^2.0",
     "yeoman-assert": "^3.1",
-    "yeoman-test": "^5.1.0"
+    "yeoman-test": "^6.0"
   },
   "engines": {
     "npm": "^7.6"
   },
   "dependencies": {
     "chalk": "^4.0",
-    "npm": "^7.6.3",
-    "username": "^5.1",
+    "npm": "^8.0",
+    "username": "^5.0",
     "yeoman-generator": "^5.2.0",
     "yosay": "^2.*"
   },
